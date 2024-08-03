@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --sidebar-color:#F38181;
+    --cards-color:#F38181;
+    --grey-color:#dfdfdf;
+    --white-color:#EAFFD0;
+}
+body{
+    display: flex;
+}
+.left{
+    width: 300px;
+    height: 152vh;
+    background-color: var(--sidebar-color);
+    display: flex;
+    flex-direction: column;
+    
+}
+.right{
+    width: 100%;
+    height: 152vh;
+    background-color:var(--grey-color);
+}
+#dashboard-icon{
+    height: 2.5rem;
+    margin-top:10px;
+    fill: white;
+
+}
+#dashboard-text{
+    color: white;
+    margin-top: 1rem;
+}
+.top{
+    display: flex;
+    padding-left:20px ;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.middle{
+    display: flex;
+    flex-direction:column ;
+    gap: 8px;
+    align-items:flex-start;
+    padding-left: 20px;
+    margin-top: 2rem;
+
+}
+.middle-svg{
+    height: 1.7rem;
+    fill: white;
+}
+.bottom{
+    display: flex;
+    flex-direction:column ;
+    gap: 8px;
+    align-items:flex-start;
+    padding-left: 20px;
+    margin-top: 4rem;
+
+}
+.bottom-svg{
+    height: 1.7rem;
+    fill: white;
+}
+.icons{
+    display: flex;
+    color: white;
+    gap: 15px;
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px gray;
+}
+.right-side-icons{
+    height: 2rem;
+}
+.search{
+    display: flex;
+    margin: 1rem 1.5rem 1rem;
+    margin-left: 4rem;
+}
+input{
+    margin-left: 7px;
+    width: 400px;
+    height: 25px;
+    border-radius: 5rem;
+    padding: .2rem;
+    background-color: var(--grey-color);
+}
+.right-top{
+    margin: .4rem .7rem .7rem;
+    margin-left: 6rem;
+    display: flex;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 3rem 0;
+}
+#notifications-svg{
+    margin-top: .7rem;
+}
+h2{
+    margin-top: .7rem;
+}
+.upper-content{
+    display: flex;
+}
+.profile{
+    display: flex;
+    margin: 0;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+}
+.lower-content{
+    display: flex;
+    gap: 14.2rem;
+}
+button{
+    padding: .3rem 1rem .3rem;
+    background-color: var(--sidebar-color);
+    border: none;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    margin:1.3rem .5rem 0;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+button:hover{
+    background-color:#ffa9a9;
+    transform: scale(1.1); 
+}
+.right-body{
+    background-color: var(--grey-color);
+    width: 100%;
+    height: 112.7vh;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.cards-div{
+    display: grid;
+    grid-template-columns: repeat(2, 48.5%);
+    grid-template-rows:repeat(3, 180px);
+    gap: 1rem;
+
+}
+.cards{
+    background-color:var(--cards-color);
+    box-shadow: 0px 0px 8px gray;
+   
+    border-radius: 1rem;
+    position: relative;
+    
+
+}
+.right-left{
+    margin: 1rem 2rem 1rem;
+
+}
+.inner-cards{
+    background-color: white;
+    height: 82.25%;
+    width: 88%;
+    border-radius: 1rem;
+    position:absolute;
+    right: 0;
+    padding: 1rem;
+}
+#projects{
+    margin:0 1rem 1rem;
+}
+.card-icons{
+    height: 1.5rem;
+    
+}
+.card-icons-div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin:.5rem 2.5rem 1rem;
+}
+.right-right{
+    display: flex;
+    flex-direction: column;
+}
+.side-card{
+    width: 225px;
+    height: 300px;
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px gray;
+
+   
+}
+#announcement-text , #trending-text{
+    margin: 1rem 0 1rem;
+    
+}
+.sidecard-text{
+    padding: 1rem 1.2rem .3rem;
+}
+.sidecard-2{
+    background-color:var(--white-color);
+    width: 225px;
+    height: 285px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px gray;
+}
+.person{
+    display: flex;
+    gap: 0;
+}
+.person-img{
+    display: inline; 
+    margin: .7rem 1rem .5rem;
+}
+.name-text{
+    margin: .7rem 1rem .5rem;
+    font-size: small;
+}
+.credit{
+    margin: 13rem auto 5rem;
+}   
+.links-icon{
+    height: 2rem;
+}
+.links{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
