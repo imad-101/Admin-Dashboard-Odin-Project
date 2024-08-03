@@ -94,6 +94,7 @@ input{
     width: 400px;
     height: 25px;
     border-radius: 5rem;
+    border:none;
     padding: .2rem;
     background-color: var(--grey-color);
 }
